@@ -66,6 +66,9 @@ public class Persona {
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
     }
+    public void Edaddetuamigo(){
+        return this.nombre;
+    }
 
     public int getEdad() {
         return this.edad; 
@@ -77,8 +80,9 @@ public class Persona {
 
     public void updateEdad() {
         this.edad = this.edad + 1;
-        
+       
     }
+    
 
     // Devuelve si es menor o no
     public boolean esMenor() {
