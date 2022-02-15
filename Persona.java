@@ -38,6 +38,7 @@ public class Persona {
         this.apellidos = apellidos;
         this.edad = edad;
     }
+   
 
     public String getDni() {
         return dni;
@@ -49,6 +50,9 @@ public class Persona {
 
     public String getNombre() {
         return nombre;
+    }
+    public String esteesMiNombre(){
+    return nombre;    
     }
 
     public void setNombre(String nombre) {
